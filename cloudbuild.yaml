@@ -1,3 +1,5 @@
 steps:
   - name: 'gcr.io/cloud-builders/bash'
     args: ['-c', 'echo Hello World!']
+options:
+  logging: CLOUD_LOGGING_ONLY  # or NONE
